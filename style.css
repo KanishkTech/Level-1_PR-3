@@ -1,0 +1,143 @@
+@font-face{
+
+    font-family: gilroy;
+    src: url('./Gilroy\ Font/Gilroy-Regular.ttf')
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    
+}
+body{
+    /* padding: 40px 60px; */
+}
+#lft-nav{
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+    /* background-color: #f5f5f5; */
+}
+.pad{
+    padding: 40px 60px;
+
+}
+#nav{
+    width: 100%;
+    display: flex;
+    /* padding: 40px 60px; */
+
+    flex-direction: column;
+}
+#nav>#lft-nav>button{
+    padding:15px 20px;
+    border-radius: 80px;
+    background-color: black;
+    color: #fff;
+    border-color: none;
+}
+#hdn{
+ width: 100%;
+}
+#hdn{
+    font-size: 150px;
+    letter-spacing: -7px;
+    line-height: 150px;
+    position: relative;
+    bottom: 40px;
+}
+#info-ltl{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+}
+#main>img{
+    width:100%;
+}
+
+#cnt-info-2{
+    display: flex;
+    padding:10px 0;
+    padding-bottom: 40px;
+
+    border-bottom: 4px solid rgba(0, 0, 0, 0.362);
+}
+
+#cnt-info-2>#cnt-hdn>h1{
+    font-size:80px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    padding-right: 40px;
+    line-height: 80px;
+    border-right: 4px rgba(0, 0, 0, 0.362) solid;
+}
+#about{
+    margin-left:40px;
+    font-size: 30px;
+}
+#icons{
+    margin-top: 256px;
+}
+
+#whatDoIDo{
+    display: flex;
+    width:100%;
+    padding-bottom: 80px;
+    border-bottom: 4px rgba(0, 0, 0, 0.362) solid;
+    /* justify-content: space-around; */
+}
+#whtdid-1{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    border-right: 2px solid black;
+}
+#whtdid-2{
+    display:flex;
+    padding-left: 30px;
+    flex-direction: column;
+    gap:50px;
+    width:70%;
+    /* padding-right: 30px; */
+}
+#ido-1,#ido-2{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 0 0 20px;
+    
+}
+.h1info{
+    font-size: 50px;
+}
+.pinfo{
+    font-size: 20px;
+}
+#info-ido-1{
+    border-right: 2px solid black;
+    padding-right: 120px;
+}
+#info-ido-3{
+    /* padding-left: 100px; */
+    border-right:2px solid black ;
+    padding-right: 70px;
+}
+#info-ido-1{
+    /* width:500px; */
+   
+    /* height: 500px; */
+}
+#ido-1,#ido-2{
+    /* padding:20px 0 0 0px; */
+    border-bottom: 2px solid black;
+    padding-bottom: 60px;
+}
+
+#work{
+    width:100%;
+    height:150px;
+    font-size: 120px;
+}
